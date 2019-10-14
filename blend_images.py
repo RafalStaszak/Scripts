@@ -49,8 +49,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--img', action='append', type=str)
 parser.add_argument('--out-img', type=str)
 parser.add_argument('--overlay', type=float, default=0.0)
-parser.add_argument('--first_color', type=str, default='1.0,0.0,0.0')
-parser.add_argument('--second_color', type=str, default='0.0,1.0,0.0')
+parser.add_argument('--first-color', type=str, default='1.0,0.0,0.0')
+parser.add_argument('--second-color', type=str, default='0.0,0.0,1.0')
 
 args = parser.parse_args()
 
